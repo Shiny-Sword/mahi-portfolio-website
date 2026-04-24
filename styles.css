@@ -743,6 +743,11 @@ section .services {
     overflow: hidden;
 }
 
+.contact-form .btn .btn-text,
+.contact-form .btn .btn-loading {
+    color: var(--text-color);
+}
+
 .btn-loading {
     display: none;
 }
