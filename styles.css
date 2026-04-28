@@ -104,11 +104,13 @@ span {
 }
 
 .home-img img {
-    width: 25vw;
+    width: min(30vw, 39rem);
+    aspect-ratio: 1 / 1;
     animation: floatImage 4s ease-in-out infinite;
-    border-radius: 65%;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
     margin-left: 150px;
-    height: 300px;
 }
 
 /* Floating Animation Keyframes */
@@ -463,6 +465,7 @@ section .services {
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
+    aspect-ratio: 16 / 9;
     animation: floatUpDown 4s ease-in-out infinite;
     transition: transform 0.3s ease;
 }
@@ -493,7 +496,9 @@ section .services {
 
 .portfolio-box img {
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     transition: .5s ease;
     opacity: 0.7;
 }
@@ -738,6 +743,11 @@ section .services {
     overflow: hidden;
 }
 
+.contact-form .btn .btn-text,
+.contact-form .btn .btn-loading {
+    color: var(--text-color);
+}
+
 .btn-loading {
     display: none;
 }
@@ -870,8 +880,9 @@ section .services {
     }
 
     .home-img img {
-        width: 70vw;
+        width: min(70vw, 34rem);
         margin-top: 4rem;
+        margin-left: 0;
     }
 
     .about {
@@ -895,8 +906,9 @@ section .services {
     }
 
     .home-img img {
-        width: 80vw;
+        width: min(80vw, 30rem);
         margin-top: 8rem;
+        margin-left: 0;
     }
 }
 
