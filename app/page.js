@@ -74,8 +74,8 @@ const pageMarkup = `
     <div class="portfolio-container">
         <div class="portfolio-box"><img src="/images/Screenshot 2024-08-03 010107.png" alt=""><div class="portfolio-layer"><h4>DO TO LIST</h4><p><a href="#" class="btn">Read more</a></p><i class="fa-solid fa-angles-right"></i></div></div>
         <div class="portfolio-box"><img src="/images/Daily Activity Project.png" alt=""><div class="portfolio-layer"><h4>Daily Activity Tracker</h4><p><a href="#" class="btn">Read more</a></p><i class="fa-solid fa-angles-right"></i></div></div>
-        <div class="portfolio-box"><img src="/images/1.png" alt="Project 1"><div class="portfolio-layer"><h4>Project 1</h4><p><a href="#" class="btn">Read more</a></p><i class="fa-solid fa-angles-right"></i></div></div>
-        <div class="portfolio-box"><img src="/images/2.png" alt="Project 2"><div class="portfolio-layer"><h4>Project 2</h4><p><a href="#" class="btn">Read more</a></p><i class="fa-solid fa-angles-right"></i></div></div>
+        <div class="portfolio-box"><img src="/images/1.png" alt="Project 1"><div class="portfolio-layer"><h4>Buttercraft</h4><p><a href="#" class="btn">Read more</a></p><i class="fa-solid fa-angles-right"></i></div></div>
+        <div class="portfolio-box"><img src="/images/2.png" alt="Project 2"><div class="portfolio-layer"><h4>Muscle AI - Smart Fitness Assistant</h4><p><a href="#" class="btn">Read more</a></p><i class="fa-solid fa-angles-right"></i></div></div>
     </div>
 </section>
 
